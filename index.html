@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" async defer>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" async defer>
     <link rel="stylesheet" href="css/style.css" async defer>
+    <link rel="stylesheet" href="js/floating-whatsapp-master/floating-wpp.min.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -42,8 +43,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white fixed">
             <div class="container">
                 <a class="navbar-brand nav-external" href="#home">
-                    <img src="img/logo02.jpeg" width="50" height="50">
-                    JAP Estudio Pisarello
+                    <img src="img/logo02.jpeg" width="50" height="50"> Estudio Pisarello
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -71,6 +71,7 @@
             </div>
         </nav>
     </div>
+    <div id="myDiv"></div>
     <section id="services" class="page">
         <div class="container">
             <div class="content text-center">
@@ -133,10 +134,8 @@
                             <img class="img-fluid" src="img/team/juano.jpeg" alt="">
                         </div>
                         <div class="bio mt-4">
-                            <h5 class="mb-1">John Doe</h5>
-                            <p>Web Developer</p>
+                            <h5 class="mb-1">Juan Andrés Pisarello</h5>
                             <div class="border mt-4 mb-4"></div>
-                            <p>Lorem ipsum dolor sit, consetetur sadipscing elitr, diam nonumy eirmod tempor invidunt ut labore.</p>
                             <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="http://www.facebook.com" title="Facebook">
@@ -225,7 +224,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
@@ -235,6 +234,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.min.js"></script>
     <script src="js/script.js?v=1.0"></script>
+    <script type="text/javascript" src="js/floating-whatsapp-master/floating-wpp.min.js"></script>
+
     <!-- Google Analytics: change UA-25089888-9 to be your site's ID. -->
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -244,6 +245,16 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-25089888-9');ga('send','pageview');
     </script>
+    <script type="text/javascript">
+        $(function () {
+          $('#myDiv').floatingWhatsApp({
+            phone: '5493424435444',
+            popupMessage: 'Hola, en que lo podemos ayudar?',
+            showPopup: true,
+            position: 'right'
+          });
+        });
+      </script>
 </body>
 
 </html>
