@@ -232,11 +232,7 @@ a:focus {
 
 #home {
     padding: 0;
-    color: #fff;
-    background-image: url(../img/cover/home.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background: #233b6f;
 }
 
 #home h1 {
