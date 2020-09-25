@@ -203,8 +203,12 @@ a:focus {
 }
 
 .page .content.cover {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem
+}
+
+.page .content.cover img {
+    width: 70%;
 }
 
 .page .border {
@@ -232,7 +236,7 @@ a:focus {
 
 #home {
     padding: 0;
-    background: #233b6f;
+    background: #002758;
 }
 
 #home h1 {
@@ -541,8 +545,11 @@ a:focus {
 
 @media (min-width: 576px) {
     .page .content.cover {
-        margin-top: 12rem;
-        margin-bottom: 12rem;
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+    }
+    .page .content.cover img {
+        width: 80%;
     }
     #portfolio .items li {
         width: 50%;
@@ -554,8 +561,11 @@ a:focus {
 
 @media (min-width: 768px) {
     .page .content.cover {
-        margin-top: 14rem;
-        margin-bottom: 14rem;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+    .page .content.cover img {
+        width: 90%;
     }
     #portfolio .items li {
         width: 25%;
@@ -567,8 +577,11 @@ a:focus {
 
 @media (min-width: 992px) {
     .page .content.cover {
-        margin-top: 16rem;
-        margin-bottom: 16rem;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+    .page .content.cover img {
+        width: 100%;
     }
     .navbar-light .navbar-nav .nav-link {
         padding-right: 1rem;
