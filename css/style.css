@@ -393,6 +393,11 @@ a:focus {
     border-color: #fff;
 }
 
+#about {
+    color: #fff;
+    background: #233b6f;
+}
+
 #about .content {
     margin-bottom: 0;
 }
@@ -440,17 +445,12 @@ a:focus {
     color: #222;
 }
 
-#contact {
-    color: #fff;
-    background: #233b6f;
-}
-
-#contact,
+/* #contact,
 #contact a,
 #contact a:hover,
 #contact a:focus {
     color: #fff
-}
+} */
 
 #contact .heading .border {
     background: #fff
