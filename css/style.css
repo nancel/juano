@@ -523,6 +523,7 @@ a:focus {
     background-color: wheat;
     margin-top: 5px;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 .wp-msj #floating-wpp-button {
