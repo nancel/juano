@@ -517,6 +517,16 @@ a:focus {
 }
 
 
+.wp-msj #wp-p {
+    float: left;
+    margin-right: 10px;
+    background-color: wheat;
+}
+
+.wp-msj #floating-wpp-button {
+    float: right;
+}
+
 /* Animations */
 
 @-webkit-keyframes loading {
