@@ -524,6 +524,8 @@ a:focus {
     margin-top: 5px;
     padding: 10px;
     text-transform: uppercase;
+    opacity: 60%;
+    font-weight: bold;
 }
 
 .wp-msj #floating-wpp-button {
