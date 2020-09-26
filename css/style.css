@@ -521,6 +521,8 @@ a:focus {
     float: left;
     margin-right: 10px;
     background-color: wheat;
+    margin-top: 5px;
+    padding: 10px;
 }
 
 .wp-msj #floating-wpp-button {
