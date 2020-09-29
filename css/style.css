@@ -166,6 +166,7 @@ a:focus {
     font-weight: 600;
     color: #666;
     text-transform: uppercase;
+    font-size: 19px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -394,10 +395,6 @@ a:focus {
     border-color: #fff;
 }
 
-#about {
-    
-}
-
 #about .content {
     margin-bottom: 0;
 }
@@ -526,6 +523,7 @@ a:focus {
     text-transform: uppercase;
     opacity: 60%;
     font-weight: bold;
+    font-size: 11px;
 }
 
 .wp-msj #floating-wpp-button {
@@ -588,6 +586,9 @@ a:focus {
     #testimonials .quote {
         padding: 0 8rem;
     }
+    .wp-msj #wp-p {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -606,5 +607,8 @@ a:focus {
     }
     #testimonials .quote {
         padding: 0 12rem;
+    }
+    .wp-msj #wp-p {
+        font-size: 13px;
     }
 }
