@@ -215,6 +215,16 @@
           });
 
           $('.venobox').venobox();
+        
+        var urls = ['img/cover/home.jpg', 'img/cover/home2.jpg'];
+
+        var cout = 1;
+        $('#home').css('background-image', 'url("' + urls[0] + '")');
+        setInterval(function() {
+            $('#home').css('background-image', 'url("' + urls[cout] + '")');
+            cout == urls.length-1 ? cout = 0 : cout++;
+        }, 3000);
+        
         });
       </script>
 </body>
