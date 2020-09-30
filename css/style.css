@@ -238,6 +238,7 @@ a:focus {
     height: 100%;
     content: "";
     background: rgba(0, 0, 0, 0.2);
+    opacity: 0.5;
 }
 
 .page.overlay .content {
@@ -245,9 +246,18 @@ a:focus {
     z-index: 1;
 }
 
-#home {
+/* #home {
     padding: 0;
     background: #002758;
+} */
+
+#home {
+    padding: 0;
+    color: #fff;
+    background-image: url(../img/cover/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 #home h1 {
